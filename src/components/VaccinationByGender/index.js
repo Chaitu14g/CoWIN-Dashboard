@@ -2,13 +2,13 @@ import {PieChart, Pie, Legend, Cell, ResponsiveContainer} from 'recharts'
 
 import './index.css'
 
-const VaccinationByAge = props => {
+const VaccinationByGender = props => {
   const {newUpdatedFetchedData} = props
-  const pieChartAgeData = newUpdatedFetchedData.vaccinationByAge
+  const pieChartAgeData = newUpdatedFetchedData.vaccinationByGender
 
   return (
     <div className="barChartContainer">
-      <h1 className="barChartContainerHeading">Vaccination by Age</h1>
+      <h1 className="barChartContainerHeading">Vaccination by gender</h1>
       <ResponsiveContainer width="100%" height={500}>
         <PieChart>
           <Pie
@@ -37,4 +37,4 @@ const VaccinationByAge = props => {
   )
 }
 
-export default VaccinationByAge
+export default VaccinationByGender
