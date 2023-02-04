@@ -1,0 +1,13 @@
+.barChartContainer {
+  background-color: #1c1c2b;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.barChartContainerHeading {
+  font-size: 20px;
+  color: #94a3b8;
+}
